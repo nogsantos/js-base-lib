@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: proxima-nova, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: #2a303c;
+  background-color: #f4f6f8;
+}
+.page {
+  padding: 0 1rem 1rem;
+}
