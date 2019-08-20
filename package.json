@@ -1,8 +1,9 @@
 {
-    "name": "js-base-lib",
-    "version": "0.0.0",
+    "name": "@nogsantos/js-base-lib",
+    "version": "0.1.0",
     "description": "Javascript base lib",
     "main": "./src/index.js",
+    "preferGlobal": true,
     "scripts": {
         "clean": "rm -rf dist/",
         "make": "npm run clean && npm run make:pack",
@@ -25,9 +26,6 @@
         "url": "https://fabricionogueira.me/"
     },
     "license": "MIT",
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
     "files": [
         "/dist"
     ],
